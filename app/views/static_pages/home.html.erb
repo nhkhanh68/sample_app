@@ -8,8 +8,11 @@
   </h2>
 
   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
-  	<p><%= link_to "Tieng Viet", '?locale=vn' %></p>
-  	<p><%= link_to "English", '?locale=en' %></p>
+  	<p>
+	<%= link_to_unless I18n.locale == :en, "English", locale: :en %>
+	|
+	<%= link_to_unless I18n.locale == :vn, "VietNam", locale: :vn %>
+	</p>
   	<h1><%=t :hello_world %></h1>
 	<h1><%= flash[:notice] %></h1>
 </div>
