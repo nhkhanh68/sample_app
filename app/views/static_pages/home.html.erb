@@ -7,8 +7,14 @@
     sample application.
   </h2>
 
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to t("signup"), signup_path, class: "btn btn-lg btn-primary" %>
+  	<p>
+	<%= link_to_unless I18n.locale == :en, "English", locale: :en %>
+	|
+	<%= link_to_unless I18n.locale == :vn, "VietNam", locale: :vn %>
+	</p>
+  	<h1><%=t :hello_world %></h1>
+	<h1><%= flash[:notice] %></h1>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>
+<%= link_to image_tag("rails.png", alt: "Rails logo"),'http://rubyonrails.org/' %>
