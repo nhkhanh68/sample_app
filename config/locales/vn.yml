@@ -2,3 +2,7 @@ vn:
   hello_world: Xin chao!
   hello_flash: Xin chao flash!
   signup: Dang ky!
+  layouts:
+    users:
+      wellcome: Welcome to the Sample App
+      signup: Dang Ky
