@@ -1,5 +1,10 @@
 vn:
   hello_world: Xin chao!
   hello_flash: Xin chao flash!
+  wellcome: Welcome to the Sample App
   signup: Dang ky!
-  wellcome: Welcome to the Sample App!
+  layouts:
+    users:
+      wellcome: Welcome to the Sample App
+      signup: Dang Ky
+      confirmation: Confirmation
