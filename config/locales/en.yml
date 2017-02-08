@@ -23,4 +23,10 @@ en:
   hello: "Hello world"
   hello_world: Hello world!
   hello_flash: Hello flash!
+  wellcome: Welcome to the Sample App
   signup: Sign Up!
+  layouts:
+    users:
+      wellcome: Welcome to the Sample App
+      signup: Signup
+      confirmation: Confirmation
