@@ -4,8 +4,18 @@ en:
   hello_flash: Hello flash!
   wellcome: Welcome to the Sample App
   signup: Sign Up!
+  wellcome: Welcome to the Sample App!
+  login: Log in
+  home: Home
+  invalid_email_password: Invalid email/password combination
   layouts:
     users:
       wellcome: Welcome to the Sample App
       signup: Signup
       confirmation: Confirmation
+    _header:
+      logout: Log out
+      profile: Profile
+      help: Help
+      sample app: sample app
+      acc: Account
